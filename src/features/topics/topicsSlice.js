@@ -19,6 +19,7 @@ export const topicsSlice = createSlice({
     }
 });
 
-export const {addTopic} = topicsSlice.actions;
-export const selectTopics = state => state.topics.topics;
+export const { addTopic } = topicsSlice.actions;
+export const selectTopics = (state) => state.topics.topics;
+/* this could also be given directly to the useSelector hook in Topics.js like this const selectTopic = useSelector((state) => state.topics.topics)*/
 export default topicsSlice.reducer;
