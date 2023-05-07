@@ -17,7 +17,7 @@ export const quizzesSlice = createSlice({
   }
 });
 
-/* This code exports a function that is wrapped in a thunk.
+/* This code exports a function that is wrapped in a thunk. A thunk is just a function that wraps around another function to delay execution of the inner function
 Adds a quiz to the 'quizzes' slice and adds that quiz's 'id' to the 'quizIds array of the corresponding topic this the 'topics' slice of the Redux store.
 */
 export const addQuizForTopicId = (quiz) => {
