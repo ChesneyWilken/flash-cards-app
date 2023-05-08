@@ -25,6 +25,9 @@ export const topicsSlice = createSlice({
 });
 
 export const { addTopic, addQuizIdForTopic } = topicsSlice.actions;
-export const selectTopics = (state) => state.topics.topics;
+
 /* this could also be given directly to the useSelector hook in Topics.js like this const selectTopic = useSelector((state) => state.topics.topics)*/
+export const selectTopics = (state) => state.topics.topics;
+
+/* This is exported and passed to createStore in store.js */
 export default topicsSlice.reducer;
