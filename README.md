@@ -25,6 +25,5 @@ The app's state is totally normalized, with slices for topics, quizzes, and card
 2. Create quizzes
 3. Visit the page for an individual quiz and flip the cards over
 
-# Questions
-
-Is this appropriately scoped? Does it have too many features? Too few?
+# Note
+This app app doesn't have persisted state set up. This is something I will set up in the future.
